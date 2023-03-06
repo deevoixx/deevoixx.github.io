@@ -1,0 +1,151 @@
+﻿
+.home {
+    overflow: hidden;
+    margin: 0px;
+    background-color: #fafbff;
+    width: -webkit-fill-available;
+    font-family: Fredoka, sans serif;
+    height: 100%;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #353c5e;
+    letter-spacing: 15px;
+}
+.header-grad {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-right: auto;
+    font-family: Fredoka, sans serif;
+    width: 900px;
+    background-image: url(../images/headert.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.buttondiv {
+    margin-right: 6px;
+    margin-left: 19px;
+    display: flex;
+    position: relative;
+    top: -18px;
+}
+.bi-pencil-square {
+    font-size: x-large;
+    padding-left: 0px!important;
+}
+
+.bi-trophy-fill {
+    font-size: x-large;
+    color: seagreen;
+}
+.fa-trash-can {
+    font-size: x-large;
+    color: tomato;
+}
+i {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.linkb{
+    line-height:10px;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+}
+
+hr {
+    width: 100%;
+    margin: 0px;
+}
+
+
+div.category {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-family: Fredoka, sans serif;
+    font-weight: 500;
+    color: #242d3b;
+}
+
+div.quizTopicSec {
+    height: 100%;
+    width: auto;
+}
+
+div.quizTopicCont {
+    width: 29.5% !important;
+    border-radius: 17px;
+    margin-top: 15px;
+    margin-right: 32px;
+    font-size: 35px;
+    font-family: Fredoka, sans serif;
+    border: 2px solid gray;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+}
+
+div.quizTopic {
+    margin-top: -45px;
+    margin-right: 0px;
+    margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-flex;
+    width: 69% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        overflow: hidden;
+        margin: 0px;
+        background-color: #fafbff;
+        width: -webkit-fill-available;
+        height: 100%;
+    }
+
+    .header-grad {
+        overflow: hidden;
+        height: 150px;
+        width: 90%;
+        background-repeat: no-repeat;
+        background-image: url('../images/header-gradi.png');
+        background-size: contain;
+    }
+
+    i.fa-arrow-right::before {
+        font-size: 2vw;
+    }
+
+    div.category {
+        width: 85%;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3vw;
+        font-family: Fredoka, sans serif;
+        font-weight: 500;
+        color: #242d3b;
+    }
+
+    div.quizTopicTitle {
+        font-size: 3vw;
+    }
+
+    hr {
+        width: 100%;
+        margin: 0px;
+    }
+}

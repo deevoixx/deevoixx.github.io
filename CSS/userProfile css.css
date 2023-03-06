@@ -1,0 +1,89 @@
+﻿* {
+    font-family: 'Fredoka', sans-serif;
+}
+/*
+body {
+    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+}
+
+.gradient-custom {
+    background: white;
+    border: 1px solid black;
+    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+}*/
+.back{
+    width:35%;
+}
+.save {
+    width: 35%!important;
+}
+.top {
+    margin-left: 42px;
+    margin-top: 24px;
+    margin-right: 15px;
+    margin-bottom: 16px;
+    display: inline-flex;
+    width: 90%;
+}
+.usersName {
+    padding-bottom: 7%;
+    width: auto;
+    height: inherit;
+    margin-left: 35px;
+    padding-top: 7%;
+}
+.details {
+    margin-right: 15px;
+    margin-left: 70px;
+    width: 42%;
+}
+.buttons {
+    padding-left: 21px;
+    width: 325px;
+    outline: solid;
+    outline-width: thin;
+    outline-color: gainsboro;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    top: 228px;
+    right: 197px;
+}
+.mid {
+    display: -webkit-box;
+    padding-bottom:4%
+}
+.nameText {
+    font-size: 37px;
+}
+.h3 {
+    color: rgba(66,49,185,1);
+    font-family: Fredoka, sans-serif;
+}
+.form-label{
+    margin-left:20px;
+    margin-top:30px;
+}
+.form-control {
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 15px;
+}
+.a{
+    width:90%;
+}
+.b {
+    width: 30%;
+
+}
+.c {
+    width: 60%;
+    margin-bottom: 25px;
+}
+.genderlbl {
+    padding-right: 20px;
+}
+
+.form-check-input {
+    padding-right: 15px;
+}

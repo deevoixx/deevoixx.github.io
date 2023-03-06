@@ -1,0 +1,228 @@
+﻿
+.home {
+    overflow: hidden;
+    margin: 0px;
+    background-color: #fafbff;
+    width: -webkit-fill-available;
+    height: 100%;
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 8px;
+    margin-left: 193px;
+    margin-right: 44px;
+    overflow-x: clip;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #353c5e;
+    letter-spacing: 15px;
+}
+
+.welcometext {
+    position: relative;
+    transform: translateY(-136%) translateX(5%);
+    overflow: hidden;
+    height: 108px;
+    display: table-cell;
+    width: 676px;
+    vertical-align: middle;
+    color: #F8F9FA;
+}
+
+.header-grad {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-right: auto;
+    font-family: Fredoka, sans serif;
+    height: 122px;
+    width: 1001px;
+    background-image: url(../images/headert.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+}
+
+hr {
+    width: 95%;
+    margin: 0px;
+}
+
+i.fa-solid fa-arrow-right {
+    font-size: 20px;
+}
+
+.bookicon {
+    padding: 0px 8px 0px 0px !important;
+}
+
+.lockicon {
+    font-size: large;
+    position: absolute;
+    padding-left: 16%;
+    margin-top: -7px;
+}
+
+div.category {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-family: Fredoka, sans serif;
+    font-weight: 500;
+    color: #242d3b;
+}
+
+div.quizTopicSec {
+    height: 100%;
+    width: auto;
+}
+
+div.quizTopicCont {
+    width: 29.5% !important;
+    border-radius: 17px;
+    margin-top: 15px;
+    margin-right: 32px;
+    font-size: 35px;
+    font-family: Fredoka, sans serif;
+    border: 2px solid gray;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+}
+
+div.quizTopic {
+    margin-top: 15px;
+    margin-right: 32px;
+    margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 205px !important;
+}
+
+div.buttondiv {
+    margin-right: 32px;
+    margin-left: 20px;
+    height: 74px;
+    width: auto;
+    padding-top: 5px;
+}
+
+.smallhr {
+    margin: auto;
+    margin-bottom: -5px;
+    width: 87%;
+}
+
+.lessonbtn {
+    padding-left: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+    width: 150px;
+    text-align: left !important;
+}
+
+.swiper-slide {
+    width: 300px !important;
+}
+
+div.quizTopicTitle {
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.scroll {
+    width: 100px;
+    height: 400px;
+    overflow: auto;
+}
+
+    .scroll::-webkit-scrollbar {
+        width: 6px;
+        height: 9px;
+        margin: 2px;
+    }
+
+    .scroll::-webkit-scrollbar-track {
+        background-color: gainsboro;
+        border-radius: 10px;
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: darkgrey;
+    }
+
+.btn {
+    --bs-btn-padding-x: 0.500rem;
+    --bs-btn-padding-y: 0.200rem;
+}
+
+​
+
+@media screen and (max-width: 768px) {
+    .home
+
+{
+    overflow: hidden;
+    margin: 0px;
+    background-color: #fafbff;
+    width: -webkit-fill-available;
+    height: 100%;
+}
+
+.header-grad {
+    overflow: hidden;
+    height: 150px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-image: url('../images/header-gradi.png');
+    background-size: contain;
+}
+
+i.fa-arrow-right::before {
+    font-size: 2vw;
+}
+
+div.category {
+    width: 85%;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+    font-family: Fredoka, sans serif;
+    font-weight: 500;
+    color: #242d3b;
+}
+
+div.quizTopicTitle {
+    font-size: 3vw;
+}
+
+hr {
+    width: 100%;
+    margin: 0px;
+}
+}

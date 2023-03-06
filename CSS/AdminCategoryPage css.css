@@ -1,0 +1,150 @@
+﻿
+.home {
+    overflow: hidden;
+    margin: 0px;
+    background-color: #fafbff;
+    width: -webkit-fill-available;
+    font-family: Fredoka, sans serif;
+    height: 100%;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #353c5e;
+    letter-spacing: 15px;
+}
+.LID {
+    height: auto;
+    margin-bottom: 6px !important;
+    opacity: 0.5;
+    margin-top: -8px;
+    font-size: 17px;
+    margin-left: 22px;
+}
+.header-grad {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-right: auto;
+    font-family: Fredoka, sans serif;
+    height: 122px;
+    width: 1001px;
+    background-image: url(../images/headert.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    text-align: center;
+    font-size: 30px;
+}
+
+hr {
+    width: 95%;
+    margin: 0px;
+}
+div.buttondiv {
+    margin-right: 6px;
+    margin-left: 19px;
+    display: flex;
+    position: relative;
+    top: -15px;
+}
+i {
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: x-large;
+}
+.fa-trash-can{
+    color:indianred;
+}
+div.category {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-family: Fredoka, sans serif;
+    font-weight: 500;
+    color: #242d3b;
+}
+
+
+div.lessonTopicSec {
+    height: 100%;
+    width: 112%;
+}
+
+div.lessonTopicCont {
+    width: 26.5% !important;
+    border-radius: 17px;
+    margin-top: 15px;
+    margin-right: 32px;
+    font-size: 35px;
+    font-family: Fredoka, sans serif;
+    border: 2px solid gray;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+}
+
+div.lessonTopic {
+    margin-top: -45px;
+    margin-right: 0px;
+    margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-flex;
+    width: 69% !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .home {
+        overflow: hidden;
+        margin: 0px;
+        background-color: #fafbff;
+        width: -webkit-fill-available;
+        height: 100%;
+    }
+
+    .header-grad {
+        overflow: hidden;
+        height: 150px;
+        width: 90%;
+        background-repeat: no-repeat;
+        background-image: url('../images/header-gradi.png');
+        background-size: contain;
+    }
+
+    i.fa-arrow-right::before {
+        font-size: 2vw;
+    }
+
+    div.category {
+        width: 85%;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3vw;
+        font-family: Fredoka, sans serif;
+        font-weight: 500;
+        color: #242d3b;
+    }
+
+    div.lessonTopicTitle {
+        font-size: 3vw;
+    }
+
+    hr {
+        width: 100%;
+        margin: 0px;
+    }
+}
